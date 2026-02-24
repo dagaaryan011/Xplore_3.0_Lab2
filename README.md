@@ -127,6 +127,7 @@ git pull upstream main
 
 You have already forked this repository and been assigned a **personal branch** (named after you). All future work must be submitted to that branch. **Do not fork the repository again.**
 
+Your branch name is the same branch you used for your previous submission.
 ---
 
 ### Step 1 — Sync Your Fork on GitHub
@@ -190,7 +191,10 @@ git push origin your-name
 
 1. Go to **your fork** on GitHub
 2. Click **"Compare & pull request"**
-3. Set the **base repository** to the main repo and the **base branch** to **your assigned branch** (`your-name`)
+3. Ensure:
+   - **Base repository** → original workshop repository
+   - **Base branch** → your assigned branch (`your-name`)
+   - **Compare branch** → your branch from your fork
 4. Click **"Create pull request"**
 
 ---

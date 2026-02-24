@@ -2,10 +2,6 @@
 
 # hehe
 
-```bash
-naman
-```
-
 ## Step 1: Fork the Repository
 
 Forking creates your own copy of the repo under your GitHub account.

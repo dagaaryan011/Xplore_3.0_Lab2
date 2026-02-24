@@ -120,3 +120,85 @@ git pull upstream main
 
 ## Made with ❤️ by Project X 
 ---
+
+### Season Dos
+
+
+
+You have already forked this repository and been assigned a **personal branch** (named after you). All future work must be submitted to that branch. **Do not fork the repository again.**
+
+---
+
+### Step 1 — Sync Your Fork on GitHub
+
+Before starting any new work, make sure your fork is up to date with the main repository.
+
+1. Go to **your fork** on GitHub (e.g. `github.com/your-username/repo-name`)
+2. Click the **"Sync fork"** button near the top of the file list
+3. Click **"Update branch"** to confirm
+
+---
+
+### Step 2 — Pull the Updated Main Branch Locally
+
+Open your terminal inside your local project folder and run:
+
+```bash
+git checkout main
+git pull origin main
+```
+
+---
+
+### Step 3 — Switch to Your Assigned Branch
+
+Replace `your-name` with your actual assigned branch name:
+
+```bash
+git checkout your-name
+```
+
+> **Not sure of your branch name?** Run `git branch -a` to list all available branches.
+
+---
+
+### Step 4 — Merge Main into Your Branch
+
+This keeps your branch up to date before you add new work:
+
+```bash
+git merge main
+```
+
+Resolve any conflicts if prompted, then continue.
+
+---
+
+### Step 5 — Add, Commit, and Push Your Work
+
+Once you've completed an exercise or made changes:
+
+```bash
+git add .
+git commit -m "Add: brief description of your work"
+git push origin your-name
+```
+
+---
+
+### Step 6 — Open a Pull Request
+
+1. Go to **your fork** on GitHub
+2. Click **"Compare & pull request"**
+3. Set the **base repository** to the main repo and the **base branch** to **your assigned branch** (`your-name`)
+4. Click **"Create pull request"**
+
+---
+
+### ⚠️ Important Reminders
+
+- 🚫 **Do NOT open a Pull Request into `main`**
+- 🚫 **Do NOT create new branches**
+- ✅ **Always push to and PR into your own assigned branch**
+
+If you're unsure which branch is yours, check with your instructor before submitting.

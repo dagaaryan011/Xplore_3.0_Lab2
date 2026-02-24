@@ -1,5 +1,7 @@
 # Contributing to the Workshop Repo — Beginner's Guide
 
+# hehe
+
 ## Step 1: Fork the Repository
 
 Forking creates your own copy of the repo under your GitHub account.
@@ -51,28 +53,31 @@ git commit -m "Solved w"
 ```
 
 > A good commit message is short and describes **what** you did.
+
 ## Good vs Bad Commit Messages
 
-| Bad | Good |
-|---|---|
-| `fixed stuff` | `Fix: resolve merge conflict in index.md` |
-| `asdfgh` | `Add: Readme , API_setup.py` |
-| `changes` | `Update: correct typo in README` |
-| `idk` | `Remove: delete duplicate entry in contributors list` |
-| `final` | `Docs: add setup instructions to README` |
-| `last commit i promise` | `Fix: remove console.log statements` |
-| `okay THIS is the last one` | `Fix: actually fix the bug this time` |
-| `solved world hunger` | `Add: working login form validation` |
-| `why is nothing working???` | `Debug: investigate auth token expiry issue` |
-| `last ver 1.23.45 FINAL FINAL` | `Release: v1.2.0 stable` |
-| `my code works dont touch` | `Refactor: clean up redundant functions` |
-| `god please let this work` | `Fix: correct API endpoint URL` |
+| Bad                            | Good                                                  |
+| ------------------------------ | ----------------------------------------------------- |
+| `fixed stuff`                  | `Fix: resolve merge conflict in index.md`             |
+| `asdfgh`                       | `Add: Readme , API_setup.py`                          |
+| `changes`                      | `Update: correct typo in README`                      |
+| `idk`                          | `Remove: delete duplicate entry in contributors list` |
+| `final`                        | `Docs: add setup instructions to README`              |
+| `last commit i promise`        | `Fix: remove console.log statements`                  |
+| `okay THIS is the last one`    | `Fix: actually fix the bug this time`                 |
+| `solved world hunger`          | `Add: working login form validation`                  |
+| `why is nothing working???`    | `Debug: investigate auth token expiry issue`          |
+| `last ver 1.23.45 FINAL FINAL` | `Release: v1.2.0 stable`                              |
+| `my code works dont touch`     | `Refactor: clean up redundant functions`              |
+| `god please let this work`     | `Fix: correct API endpoint URL`                       |
 
->  A good commit message completes the sentence: **"If applied, this commit will..."**
+> A good commit message completes the sentence: **"If applied, this commit will..."**
+>
 > - "If applied, this commit will **Add readme file**"
 > - "If applied, this commit will **solved world hunger**"
 
->  If your commit message is a cry for help, it's time to rethink it.
+> If your commit message is a cry for help, it's time to rethink it.
+
 ---
 
 ## Step 6: Push to Your Fork
@@ -90,23 +95,23 @@ git push origin your-name-contribution
 3. Add a short title and description of what you did
 4. Click **"Create Pull Request"**
 
-The workshop organizer will review and merge it! 
+The workshop organizer will review and merge it!
 
 ---
 
 ## Quick Reference
 
-| Command | What it does |
-|---|---|
-| `git clone <url>` | Download the repo |
-| `git checkout -b <name>` | Create a new branch |
-| `git add .` | Stage all changes |
-| `git commit -m "message"` | Save a snapshot |
-| `git push origin <branch>` | Upload to GitHub |
+| Command                    | What it does        |
+| -------------------------- | ------------------- |
+| `git clone <url>`          | Download the repo   |
+| `git checkout -b <name>`   | Create a new branch |
+| `git add .`                | Stage all changes   |
+| `git commit -m "message"`  | Save a snapshot     |
+| `git push origin <branch>` | Upload to GitHub    |
 
 ---
 
-##  Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 - Don't push directly to `main`
 - Don't forget to branch before making changes
@@ -118,5 +123,6 @@ git pull upstream main
 
 ---
 
-## Made with ❤️ by Project X 
+## Made with ❤️ by Project X
+
 ---

@@ -1,0 +1,6 @@
+print("this is being added to the original code")
+print("this is called git adding")
+print("once we git commit this, it get permanently added to the cloned code")
+print("ie it is a checkpoint where our code will get stored")
+print("git push finally adds into the main code for others to see...they can see your commit name too")
+print("add -- commit -- push")

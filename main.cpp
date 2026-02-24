@@ -20,6 +20,5 @@ int main(){
     cout<<"Enter the term you want to find in the series: ";
     cin>>n;
     cout<<fbnc(n);
-    
     return 0;
 }

@@ -13,7 +13,7 @@ Forking creates your own copy of the repo under your GitHub account.
 ## Step 2: Clone Your Fork Locally
 
 Cloning downloads the repo to your computer so you can work on it.
-
+git branch
 ```bash
 git clone https://github.com/YOUR_USERNAME/repo-name.git
 cd repo-name

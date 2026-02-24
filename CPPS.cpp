@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int num;
+    cout<<"enter a number: ";
+    cin>>num;
+    for(int i=0; i<num; i++){
+        cout<<i<<" ";
+    }
+    cout<<"Hello World";
+    return 0;
+}

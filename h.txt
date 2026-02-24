@@ -1,0 +1,14 @@
+#include <iostram>
+using namespace std;
+
+int main(){
+    
+int N;
+
+
+cout<<"enter your name : "<<endl;
+cin>>N;
+
+
+    return 0;
+}
